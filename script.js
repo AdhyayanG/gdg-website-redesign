@@ -38,11 +38,4 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.reveal').forEach(function (el) {
     observer.observe(el);
   });
-
-  var track = document.getElementById('marqueeTrack');
-  if (track) {
-    var wall = track.parentElement;
-    wall.addEventListener('mouseenter', function () { track.style.animationPlayState = 'paused'; });
-    wall.addEventListener('mouseleave', function () { track.style.animationPlayState = 'running'; });
-  }
 });

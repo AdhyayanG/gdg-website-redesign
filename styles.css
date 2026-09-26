@@ -1,6 +1,6 @@
 :root {
   --cream: #FDF9E3;
-  --orange: #E8542F;
+  --orange: #D24E2E;
   --yellow: #F5C518;
   --dark: #1A1A1A;
   --dark-panel: #1C1C1C;
@@ -462,17 +462,18 @@ nav {
 }
 
 .section-label-light {
-  display: inline-flex;
+  display: inline-block;
   background: transparent;
-  color: var(--dark);
+  color: var(--orange);
   font-family: 'Courier Prime', monospace;
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  padding: 5px 16px;
-  border-radius: 100px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  padding: 0;
+  border: none;
+  border-radius: 0;
   text-transform: uppercase;
-  border: 2px solid var(--dark);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .stats-section {
