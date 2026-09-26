@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Demo Night | Web3 Carnival</title>
+<meta name="description" content="Demo Night is the heartbeat of Web3 Carnival, where early-stage projects pitch live to 250+ investors and 1500+ potential startups.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="m-close" onclick="closeMobile()" aria-label="Close menu">&#x2715;</button>
+  <a href="tracks.html">Tracks</a>
+  <a href="demo-night.html">Demo Night</a>
+  <a href="speakers.html">Speakers</a>
+  <a href="awards.html">Awards</a>
+  <a href="sponsors.html">Sponsors</a>
+  <a href="https://lu.ma" class="btn-hero" style="font-size:20px;padding:14px 40px;">Register Now</a>
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Web3 Carnival</a>
+    <ul class="nav-links">
+      <li><a href="tracks.html">Tracks</a></li>
+      <li><a href="demo-night.html" class="active">Demo Night</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="awards.html">Awards</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="https://calendly.com" class="btn-ghost">Book a Call</a>
+      <a href="https://lu.ma" class="btn-primary">Register Now</a>
+    </div>
+    <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Demo Night</div>
+  <span class="section-label-light">The Main Stage</span>
+  <h1 class="display page-hero-title">Pitch. Demo. Win.</h1>
+  <p class="page-hero-sub">Demo Night is the heartbeat of Web3 Carnival, where early-stage projects step into the spotlight in front of the people who write the cheques and set the trends.</p>
+  <div class="hero-ctas" style="margin-top:28px;margin-bottom:0;">
+    <a href="https://lu.ma" class="btn-hero">Apply to Pitch</a>
+    <a href="#agenda" class="btn-hero-ghost">See the Run of Show</a>
+  </div>
+</section>
+
+<section class="stats-section reveal">
+  <div class="stats-card">
+    <div class="stats-card-label">
+      <span class="section-label" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);">Why It Matters</span>
+    </div>
+    <h2 class="display-white stats-heading">The Room Where Deals Happen</h2>
+    <p class="stats-sub">One stage. A few unforgettable minutes. A network that can change your trajectory.</p>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-value">250+</div>
+        <div class="stat-label">Investors In The Room</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">1500+</div>
+        <div class="stat-label">Potential Startups</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">5000+</div>
+        <div class="stat-label">Live Audience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <span class="section-label-light">The Format</span>
+    <h2 class="display-sm">How Demo Night Runs</h2>
+    <p>A tight, high-energy showcase built to give every founder a fair, memorable shot.</p>
+  </div>
+  <div class="format-grid">
+    <div class="format-card reveal">
+      <div class="fc-num">Step 01</div>
+      <h3>Apply</h3>
+      <p>Submit your project through the open application. Pre-seed to Series A, all sectors of Web3 welcome.</p>
+    </div>
+    <div class="format-card reveal" style="transition-delay:0.07s">
+      <div class="fc-num">Step 02</div>
+      <h3>Get Curated</h3>
+      <p>A panel of operators and investors reviews submissions and selects the finalist lineup for the stage.</p>
+    </div>
+    <div class="format-card reveal" style="transition-delay:0.14s">
+      <div class="fc-num">Step 03</div>
+      <h3>Pitch Live</h3>
+      <p>Take the stage for a focused live pitch and demo, followed by rapid-fire questions from the judges.</p>
+    </div>
+    <div class="format-card reveal" style="transition-delay:0.21s">
+      <div class="fc-num">Step 04</div>
+      <h3>Connect</h3>
+      <p>Move straight into investor speed-networking and audience voting. The conversations continue long after.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="agenda" style="background:rgba(26,26,26,0.02);border-top:2px solid var(--dark);border-bottom:2px solid var(--dark);">
+  <div class="section-head reveal">
+    <span class="section-label-light">Run of Show</span>
+    <h2 class="display-sm">A Night, Start to Finish</h2>
+    <p>Indicative schedule. Exact timings are confirmed closer to the event.</p>
+  </div>
+  <div class="agenda reveal">
+    <div class="agenda-row">
+      <div class="agenda-time">18:00</div>
+      <div class="agenda-body">
+        <h3>Doors &amp; Founder Check-in</h3>
+        <p>Finalists arrive, tech-check their demos, and settle in. Networking opens for the audience.</p>
+      </div>
+    </div>
+    <div class="agenda-row">
+      <div class="agenda-time">18:45</div>
+      <div class="agenda-body">
+        <h3>Opening &amp; Judge Introductions</h3>
+        <p>The host sets the stage and introduces the panel of investors and operators judging the night.</p>
+      </div>
+    </div>
+    <div class="agenda-row">
+      <div class="agenda-time">19:00</div>
+      <div class="agenda-body">
+        <h3>Live Pitch Rounds</h3>
+        <p>Finalists take the stage back to back, each with a live pitch, a demo, and a Q&amp;A with the judges.</p>
+      </div>
+    </div>
+    <div class="agenda-row">
+      <div class="agenda-time">20:30</div>
+      <div class="agenda-body">
+        <h3>Audience Vote &amp; Deliberation</h3>
+        <p>The crowd casts its vote for the audience choice award while judges deliberate on the main prize.</p>
+      </div>
+    </div>
+    <div class="agenda-row">
+      <div class="agenda-time">21:00</div>
+      <div class="agenda-body">
+        <h3>Winners &amp; After-Hours</h3>
+        <p>Awards are announced, and the room rolls into open networking with investors and fellow founders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="feature-row reveal">
+    <div class="feature-text">
+      <span class="section-label-light">Who Should Apply</span>
+      <h3 class="display-sm feature-title">Built for Founders With Something to Show</h3>
+      <p class="feature-body">If you have a working product, a bold thesis, and the ambition to build in public, Demo Night is your stage. No gatekeeping, just a fair shot in front of the right people.</p>
+      <ul class="checklist">
+        <li><span class="check-icon">&#x2713;</span> Pre-seed to Series A Web3 projects</li>
+        <li><span class="check-icon">&#x2713;</span> A live product or working prototype to demo</li>
+        <li><span class="check-icon">&#x2713;</span> Founders ready to field investor questions on stage</li>
+        <li><span class="check-icon">&#x2713;</span> Teams looking for capital, partners, or visibility</li>
+      </ul>
+    </div>
+    <div class="doppelrand">
+      <div class="doppelrand-inner">
+        <div class="feature-card-inner">
+          <span class="feature-card-tag">What You Walk Away With</span>
+          <div class="feature-card-heading">More Than a Trophy</div>
+          <p class="feature-card-body">Direct investor access, accelerator introductions, media coverage, and a network that keeps compounding after the lights go down.</p>
+          <div class="city-pills" style="margin-top:24px">
+            <span class="city-pill">Investor Intros</span>
+            <span class="city-pill">Accelerator Access</span>
+            <span class="city-pill">Media Coverage</span>
+            <span class="city-pill">Audience Award</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="cta-band reveal">
+    <h2 class="display-white">The Stage Is Yours. Take It.</h2>
+    <p>Applications for Demo Night are open. Bring your best pitch to the world's premier Web3 stage.</p>
+    <div class="hero-ctas" style="margin-bottom:0;">
+      <a href="https://lu.ma" class="btn-hero">Apply to Pitch</a>
+      <a href="awards.html" class="btn-hero-ghost" style="color:var(--cream);border-color:var(--cream);">See the Awards</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Web3 Carnival</div>
+        <p class="footer-tagline">Powered by Threeway Studio. Elevating the global blockchain ecosystem one city at a time.</p>
+      </div>
+      <div>
+        <div class="footer-col-heading">Event</div>
+        <ul class="footer-links">
+          <li><a href="tracks.html">Conference Tracks</a></li>
+          <li><a href="demo-night.html">Demo Night</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="https://lu.ma">Register Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-heading">Partners</div>
+        <ul class="footer-links">
+          <li><a href="sponsors.html">Become a Sponsor</a></li>
+          <li><a href="sponsors.html">Media Partners</a></li>
+          <li><a href="sponsors.html">Ecosystem Partners</a></li>
+          <li><a href="sponsors.html">Community Partners</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-heading">Connect</div>
+        <ul class="footer-links">
+          <li><a href="https://lu.ma">WhatsApp Community</a></li>
+          <li><a href="https://lu.ma">Telegram Channel</a></li>
+          <li><a href="https://twitter.com">Twitter / X</a></li>
+          <li><a href="https://instagram.com">Instagram</a></li>
+          <li><a href="https://linkedin.com">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Web3 Carnival. Powered by Threeway Studio. All rights reserved.</span>
+      <div class="socials">
+        <a href="https://wa.me" class="social-link" aria-label="WhatsApp">WA</a>
+        <a href="https://t.me" class="social-link" aria-label="Telegram">TG</a>
+        <a href="https://twitter.com" class="social-link" aria-label="Twitter">X</a>
+        <a href="https://instagram.com" class="social-link" aria-label="Instagram">IG</a>
+        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=1"></script>
+</body>
+</html>

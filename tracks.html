@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Tracks | Web3 Carnival</title>
+<meta name="description" content="Seven conference tracks across the full spectrum of blockchain innovation, from Layer 1 infrastructure to NFT utilities.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="m-close" onclick="closeMobile()" aria-label="Close menu">&#x2715;</button>
+  <a href="tracks.html">Tracks</a>
+  <a href="demo-night.html">Demo Night</a>
+  <a href="speakers.html">Speakers</a>
+  <a href="awards.html">Awards</a>
+  <a href="sponsors.html">Sponsors</a>
+  <a href="https://lu.ma" class="btn-hero" style="font-size:20px;padding:14px 40px;">Register Now</a>
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Web3 Carnival</a>
+    <ul class="nav-links">
+      <li><a href="tracks.html" class="active">Tracks</a></li>
+      <li><a href="demo-night.html">Demo Night</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="awards.html">Awards</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="https://calendly.com" class="btn-ghost">Book a Call</a>
+      <a href="https://lu.ma" class="btn-primary">Register Now</a>
+    </div>
+    <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Tracks</div>
+  <span class="section-label-light">7 Conference Tracks</span>
+  <h1 class="display page-hero-title">Seven Tracks. One Carnival.</h1>
+  <p class="page-hero-sub">Every corner of the ecosystem gets its stage. Deep-dive sessions, keynotes, and workshops curated for founders, developers, investors, and creators.</p>
+</section>
+
+<section class="tracks-section">
+  <div class="tracks-grid">
+    <div class="track-card reveal">
+      <div class="track-number">Track 01</div>
+      <div class="track-name">Blockchain &amp; Infrastructure</div>
+      <div class="track-desc">The rails that power the decentralised web, from base-layer consensus to modular scaling.</div>
+      <ul class="track-topics">
+        <li>Layer 1 consensus and Layer 2 scalability</li>
+        <li>Modular chains, rollups, and data availability</li>
+        <li>Interoperability and cross-chain bridges</li>
+        <li>Node infrastructure and developer tooling</li>
+      </ul>
+      <span class="track-tag">Core Protocol</span>
+    </div>
+    <div class="track-card reveal" style="transition-delay:0.06s">
+      <div class="track-number">Track 02</div>
+      <div class="track-name">DAO &amp; Governance</div>
+      <div class="track-desc">How decentralised communities coordinate capital, decisions, and ownership at scale.</div>
+      <ul class="track-topics">
+        <li>On-chain voting and delegation models</li>
+        <li>Treasury management and public goods funding</li>
+        <li>Reputation, identity, and contributor incentives</li>
+        <li>Legal wrappers and regulatory frameworks</li>
+      </ul>
+      <span class="track-tag">Governance</span>
+    </div>
+    <div class="track-card reveal" style="transition-delay:0.12s">
+      <div class="track-number">Track 03</div>
+      <div class="track-name">Metaverse &amp; GameFi</div>
+      <div class="track-desc">Where gaming, virtual worlds, and digital asset economies converge on-chain.</div>
+      <ul class="track-topics">
+        <li>Play-to-earn and sustainable game economies</li>
+        <li>Interoperable in-game assets and identity</li>
+        <li>Immersive worlds and creator monetisation</li>
+        <li>On-chain gaming infrastructure</li>
+      </ul>
+      <span class="track-tag">Gaming</span>
+    </div>
+    <div class="track-card reveal" style="transition-delay:0.18s">
+      <div class="track-number">Track 04</div>
+      <div class="track-name">ZK &amp; Security</div>
+      <div class="track-desc">Privacy-preserving cryptography and the practices that keep protocols trustless.</div>
+      <ul class="track-topics">
+        <li>Zero-knowledge proofs and applications</li>
+        <li>Smart contract audits and formal verification</li>
+        <li>MEV, exploits, and mitigation strategies</li>
+        <li>Privacy-preserving compliance</li>
+      </ul>
+      <span class="track-tag">Privacy Tech</span>
+    </div>
+    <div class="track-card reveal" style="transition-delay:0.24s">
+      <div class="track-number">Track 05</div>
+      <div class="track-name">CeFi / DeFi &amp; Staking</div>
+      <div class="track-desc">The future of financial infrastructure, from liquid staking to real-world yield.</div>
+      <ul class="track-topics">
+        <li>Lending, DEXs, and liquidity provision</li>
+        <li>Liquid staking and restaking economies</li>
+        <li>Stablecoins and on-chain forex</li>
+        <li>Bridging CeFi rails with DeFi liquidity</li>
+      </ul>
+      <span class="track-tag">Finance</span>
+    </div>
+    <div class="track-card reveal" style="transition-delay:0.30s">
+      <div class="track-number">Track 06</div>
+      <div class="track-name">Enterprise Blockchain</div>
+      <div class="track-desc">Institutional adoption and the tokenisation of real-world value.</div>
+      <ul class="track-topics">
+        <li>Tokenisation of real-world assets</li>
+        <li>Supply chain and provenance tracking</li>
+        <li>Permissioned networks and B2B integration</li>
+        <li>Compliance, custody, and settlement</li>
+      </ul>
+      <span class="track-tag">Enterprise</span>
+    </div>
+    <div class="track-card reveal" style="transition-delay:0.36s">
+      <div class="track-number">Track 07</div>
+      <div class="track-name">NFT &amp; Utilities</div>
+      <div class="track-desc">Beyond digital art, NFTs as access, ownership, and loyalty primitives.</div>
+      <ul class="track-topics">
+        <li>NFTs as access tokens and memberships</li>
+        <li>IP ownership and creator royalties</li>
+        <li>Loyalty programs and brand activations</li>
+        <li>Dynamic and utility-first collections</li>
+      </ul>
+      <span class="track-tag">NFT</span>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="cta-band reveal">
+    <h2 class="display-white">Find Your Track. Take the Stage.</h2>
+    <p>Whether you're speaking, building, or investing, there's a room at Web3 Carnival with your name on it.</p>
+    <div class="hero-ctas" style="margin-bottom:0;">
+      <a href="https://lu.ma" class="btn-hero">Register Now</a>
+      <a href="speakers.html" class="btn-hero-ghost" style="color:var(--cream);border-color:var(--cream);">Apply to Speak</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Web3 Carnival</div>
+        <p class="footer-tagline">Powered by Threeway Studio. Elevating the global blockchain ecosystem one city at a time.</p>
+      </div>
+      <div>
+        <div class="footer-col-heading">Event</div>
+        <ul class="footer-links">
+          <li><a href="tracks.html">Conference Tracks</a></li>
+          <li><a href="demo-night.html">Demo Night</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="https://lu.ma">Register Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-heading">Partners</div>
+        <ul class="footer-links">
+          <li><a href="sponsors.html">Become a Sponsor</a></li>
+          <li><a href="sponsors.html">Media Partners</a></li>
+          <li><a href="sponsors.html">Ecosystem Partners</a></li>
+          <li><a href="sponsors.html">Community Partners</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-heading">Connect</div>
+        <ul class="footer-links">
+          <li><a href="https://lu.ma">WhatsApp Community</a></li>
+          <li><a href="https://lu.ma">Telegram Channel</a></li>
+          <li><a href="https://twitter.com">Twitter / X</a></li>
+          <li><a href="https://instagram.com">Instagram</a></li>
+          <li><a href="https://linkedin.com">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Web3 Carnival. Powered by Threeway Studio. All rights reserved.</span>
+      <div class="socials">
+        <a href="https://wa.me" class="social-link" aria-label="WhatsApp">WA</a>
+        <a href="https://t.me" class="social-link" aria-label="Telegram">TG</a>
+        <a href="https://twitter.com" class="social-link" aria-label="Twitter">X</a>
+        <a href="https://instagram.com" class="social-link" aria-label="Instagram">IG</a>
+        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=1"></script>
+</body>
+</html>

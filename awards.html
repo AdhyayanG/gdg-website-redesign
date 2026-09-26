@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Awards | Web3 Carnival</title>
+<meta name="description" content="The Web3 Carnival Awards celebrate the builders, protocols, and communities pushing the ecosystem forward.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="m-close" onclick="closeMobile()" aria-label="Close menu">&#x2715;</button>
+  <a href="tracks.html">Tracks</a>
+  <a href="demo-night.html">Demo Night</a>
+  <a href="speakers.html">Speakers</a>
+  <a href="awards.html">Awards</a>
+  <a href="sponsors.html">Sponsors</a>
+  <a href="https://lu.ma" class="btn-hero" style="font-size:20px;padding:14px 40px;">Register Now</a>
+</div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Web3 Carnival</a>
+    <ul class="nav-links">
+      <li><a href="tracks.html">Tracks</a></li>
+      <li><a href="demo-night.html">Demo Night</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="awards.html" class="active">Awards</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="https://calendly.com" class="btn-ghost">Book a Call</a>
+      <a href="https://lu.ma" class="btn-primary">Register Now</a>
+    </div>
+    <button class="hamburger" id="hamburger" onclick="toggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Awards</div>
+  <span class="section-label-light">The Carnival Awards</span>
+  <h1 class="display page-hero-title">Recognising the Best in Web3</h1>
+  <p class="page-hero-sub">The Web3 Carnival Awards celebrate the builders, protocols, and communities moving the ecosystem forward, decided by our judging panel and the audience in the room.</p>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <span class="section-label-light">Award Categories</span>
+    <h2 class="display-sm">Eight Ways to Win</h2>
+    <p>One category for every kind of excellence, from deep infrastructure to community energy.</p>
+  </div>
+  <div class="award-grid">
+    <div class="award-card reveal">
+      <div class="award-badge">01</div>
+      <h3>Best Infrastructure</h3>
+      <p>For the protocol or tooling team building the most important rails in Web3.</p>
+      <span class="award-prize">Trophy + Feature</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.06s">
+      <div class="award-badge">02</div>
+      <h3>Best DeFi Protocol</h3>
+      <p>Recognising standout innovation in decentralised finance and on-chain markets.</p>
+      <span class="award-prize">Trophy + Feature</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.12s">
+      <div class="award-badge">03</div>
+      <h3>Best GameFi Project</h3>
+      <p>For the team redefining play, ownership, and virtual economies on-chain.</p>
+      <span class="award-prize">Trophy + Feature</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.18s">
+      <div class="award-badge">04</div>
+      <h3>Best in ZK &amp; Privacy</h3>
+      <p>Celebrating breakthroughs in zero-knowledge tech and privacy-preserving systems.</p>
+      <span class="award-prize">Trophy + Feature</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.06s">
+      <div class="award-badge">05</div>
+      <h3>Demo Night Winner</h3>
+      <p>The founder who wins the judges over on the main stage. The night's headline prize.</p>
+      <span class="award-prize">Grand Prize</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.12s">
+      <div class="award-badge">06</div>
+      <h3>Community Choice</h3>
+      <p>Voted live by the 5000+ people in the room. The people's champion of the carnival.</p>
+      <span class="award-prize">Audience Vote</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.18s">
+      <div class="award-badge">07</div>
+      <h3>Rising Star</h3>
+      <p>For the pre-seed team with the boldest vision and the sharpest early execution.</p>
+      <span class="award-prize">Trophy + Mentorship</span>
+    </div>
+    <div class="award-card reveal" style="transition-delay:0.24s">
+      <div class="award-badge">08</div>
+      <h3>Ecosystem Impact</h3>
+      <p>Honouring the project doing the most for open-source, education, and public goods.</p>
+      <span class="award-prize">Trophy + Feature</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:rgba(26,26,26,0.02);border-top:2px solid var(--dark);border-bottom:2px solid var(--dark);">
+  <div class="feature-row reveal">
+    <div class="feature-text">
+      <span class="section-label-light">How Judging Works</span>
+      <h3 class="display-sm feature-title">Merit First, Hype Second</h3>
+      <p class="feature-body">Every nominee is assessed against a clear, consistent rubric by a panel of operators, investors, and researchers, so the awards mean something the morning after.</p>
+      <ul class="checklist">
+        <li><span class="check-icon">&#x2713;</span> Product depth and technical execution</li>
+        <li><span class="check-icon">&#x2713;</span> Traction, adoption, and real usage</li>
+        <li><span class="check-icon">&#x2713;</span> Originality and contribution to the ecosystem</li>
+        <li><span class="check-icon">&#x2713;</span> Clarity of vision and team credibility</li>
+      </ul>
+    </div>
+    <div class="doppelrand">
+      <div class="doppelrand-inner">
+        <div class="feature-card-inner">
+          <span class="feature-card-tag">The Panel</span>
+          <div class="feature-card-heading">Judged by Operators</div>
+          <p class="feature-card-body">Awards are decided by people who have built and backed real Web3 companies, plus the live audience for the community categories.</p>
+          <div class="city-pills" style="margin-top:24px">
+            <span class="city-pill">Investors</span>
+            <span class="city-pill">Founders</span>
+            <span class="city-pill">Researchers</span>
+            <span class="city-pill">Live Audience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="cta-band reveal">
+    <h2 class="display-white">Think You've Built Something Special?</h2>
+    <p>Nominations open alongside registration. Put your project in front of the judges and the crowd.</p>
+    <div class="hero-ctas" style="margin-bottom:0;">
+      <a href="https://lu.ma" class="btn-hero">Submit a Nomination</a>
+      <a href="demo-night.html" class="btn-hero-ghost" style="color:var(--cream);border-color:var(--cream);">Enter Demo Night</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Web3 Carnival</div>
+        <p class="footer-tagline">Powered by Threeway Studio. Elevating the global blockchain ecosystem one city at a time.</p>
+      </div>
+      <div>
+        <div class="footer-col-heading">Event</div>
+        <ul class="footer-links">
+          <li><a href="tracks.html">Conference Tracks</a></li>
+          <li><a href="demo-night.html">Demo Night</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="https://lu.ma">Register Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-heading">Partners</div>
+        <ul class="footer-links">
+          <li><a href="sponsors.html">Become a Sponsor</a></li>
+          <li><a href="sponsors.html">Media Partners</a></li>
+          <li><a href="sponsors.html">Ecosystem Partners</a></li>
+          <li><a href="sponsors.html">Community Partners</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-heading">Connect</div>
+        <ul class="footer-links">
+          <li><a href="https://lu.ma">WhatsApp Community</a></li>
+          <li><a href="https://lu.ma">Telegram Channel</a></li>
+          <li><a href="https://twitter.com">Twitter / X</a></li>
+          <li><a href="https://instagram.com">Instagram</a></li>
+          <li><a href="https://linkedin.com">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Web3 Carnival. Powered by Threeway Studio. All rights reserved.</span>
+      <div class="socials">
+        <a href="https://wa.me" class="social-link" aria-label="WhatsApp">WA</a>
+        <a href="https://t.me" class="social-link" aria-label="Telegram">TG</a>
+        <a href="https://twitter.com" class="social-link" aria-label="Twitter">X</a>
+        <a href="https://instagram.com" class="social-link" aria-label="Instagram">IG</a>
+        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=1"></script>
+</body>
+</html>
